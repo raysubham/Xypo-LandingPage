@@ -1,0 +1,262 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xypo Web Design</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <div class="container">
+        <img src="./images/logo.png" alt="" class="logo" />
+        <div class="header-text">
+          <h1>The Purpose is to <br />teach, bring people to learning</h1>
+          <span class="square"></span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            nulla alias, accusantium tenetur in consequatur quidem beatae ipsum
+            repellat minima libero necessitatibus animi laboriosam excepturi
+            enim laborum itaque, sint officia.
+          </p>
+          <button class="btn">Read More</button>
+        </div>
+        <div class="line">
+          <span class="line1"></span><br /><br />
+
+          <span class="line2"></span><br /><br />
+          <span class="line3"></span>
+        </div>
+        <nav id="sidenav">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">COURSES</a></li>
+            <li><a href="#">OFFER</a></li>
+            <li><a href="#">CONTACT US</a></li>
+          </ul>
+          <img src="./images/menu.png" alt="" id="menubtn" />
+
+          <script>
+            var sidenav = document.getElementById("sidenav");
+            var menubtn = document.getElementById("menubtn");
+
+            sidenav.style.right = "-250px";
+            menubtn.onclick = function () {
+              if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+              } else {
+                sidenav.style.right = "-250px";
+              }
+            };
+          </script>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ---About--- -->
+
+    <section id="about">
+      <div class="about-left">
+        <img src="./images/about.png" alt="" />
+      </div>
+      <div class="about-right">
+        <div class="about-text">
+          <h1>About Us</h1><span class="square"></span>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            quas quidem aspernatur magni recusandae labore et sunt officia. Illo
+            vitae perferendis dolore quo, ipsam earum. Saepe aspernatur
+            reiciendis id explicabo!
+          </p><br><div class="line">
+            <span class="line1"></span><br><br>
+            <span class="line2"></span><br><br>
+            <span class="line3"></span>
+          </div><br>
+          <h2>
+            "Learning is not attained by chance,it must be sought for with ardor
+            and attended to with diligence"
+          </h2><br>
+          <h3>--- Abigail Adams</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---Features--- -->
+
+    <section class="features">
+      <div class="features-row">
+        <div class="features-col">
+          <img src="./images/pic-1.png" alt="" />
+          <h4>Hakuna Matata</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
+            veniam?
+          </p>
+        </div>
+        <div class="features-col">
+          <img src="./images/pic-2.png" alt="" />
+          <h4>Hakuna Matata</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
+            veniam?
+          </p>
+        </div>
+        <div class="features-col">
+          <img src="./images/pic-3.png" alt="" />
+          <h4>Hakuna Matata</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
+            veniam?
+          </p>
+        </div>
+      </div>
+      <div class="feature-btn">
+
+        <div class="line">
+          <span class="line1"></span><br><br>
+          <span class="line2"></span><br><br>
+          <span class="line3"></span>
+        </div>
+        <button class="btn">Read More</button>
+    </section>
+    <section id="courses">
+      <div class="container course-row">
+        <div class="course-left-col">
+          <div class="course-text">
+            <h1>Brouse our Top Courses</h3>
+            <span class="square"></span>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus soluta eos ea libero velit eveniet, consectetur sint illo consequuntur blanditiis.</p> 
+            <button class="btn">View Our Courses </button>     
+            <div class="line">
+              <span class="line1"></span><br><br>
+              <span class="line2"></span><br><br>
+              <span class="line3"></span>
+            </div>
+          </div>
+        </div>
+        <div class="course-right-col">
+          <img src="./images/course.png" alt="">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Offer -->
+    
+    <section id="offer">
+      <div class="about-left">
+        <img src="./images/offer.png" alt="" />
+      </div>
+      <div class="about-right">
+        <div class="about-text">
+          <h1>Limiltless Learning, <br> Limitless Possibilities</h1>
+          <span class="square"></span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quaerat, deserunt voluptatibus impedit quae eos,
+            molestiae sunt adipisci odit sed, ab fuga magni aliquam inventore!
+          </p><br>
+          <button class="btn">Start Free Trial </button>
+          <div class="line">
+            <span class="line1"></span><br><br>
+            <span class="line2"></span><br><br>
+            <span class="line3"></span>
+          </div>
+    
+        </div>
+    </section>
+    
+    <section id="contact">
+      <div class="container contact-row">
+        <div class="contact-left-col">
+          <h1>Sign Up to Join Our <br>Learning Community</h1>
+          <form action="">
+            <input type="text" name="" id="" placeholder="Enter Name">
+            <input type="email" name="" id="" placeholder="Enter Email">
+            <input type="password" name="" id="" placeholder="Enter Password">
+            <div class="buttons">
+              <button class="btn">SIGN UP</button>
+              <button class="btn">START FREE TRIAL</button>
+            </div>
+          </form>
+          <div class="line">
+            <span class="line1"></span><br><br>
+            <span class="line2"></span><br><br>
+            <span class="line3"></span>
+          </div>
+    
+        </div>
+        <div class="contact-right-col">
+          <img src="./images/contact.png" alt="">
+        </div>
+      </div>
+    
+    </section>
+
+    <!-- --- FOOOTER--- -->
+
+    <section id="footer">
+      <hr>
+      <div class="container footer-row">
+       
+        <div class="footer-left-col">
+          <div class="footer-links">
+            <div class="links-title">
+              <h4>Product</h4>
+              <small>Our Plan</small><br>
+              <small>Start Trial</small>
+            </div>
+            <div class="links-title">
+              <h4>Product</h4>
+              <small>Our Plan</small><br>
+              <small>Start Trial</small>
+            </div>
+            <div class="links-title">
+              <h4>Product</h4>
+              <small>Our Plan</small><br>
+              <small>Start Trial</small>
+            </div>
+            <div class="links-title">
+              <h4>Product</h4>
+              <small>Our Plan</small><br>
+              <small>Start Trial</small>
+            </div>
+          </div>
+        
+        </div>  
+        <div class="footer-right-col">
+          <div class="footer-text">
+            <div class="copyright-text">
+              <small>support@xypo.com</small>
+              <small>copyright&c  2020 Xypo</small>
+
+            </div>
+            <div class="footer-logo">
+              <img src="./images/logo.png" alt="">
+              <button class="btn">ENGLISH </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- ---social-icons--- -->
+
+    <div class="social-icons">
+      <img src="./images/facebook.png" alt="">
+      <img src="./images/instagram.png" alt="">
+      <img src="./images/twitter.png" alt="">
+      <img src="./images/linkedin.png" alt="">
+    </div>
+  
+
+  </body>
+</html>
+
+
+
